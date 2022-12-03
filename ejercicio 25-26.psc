@@ -1,6 +1,6 @@
 Algoritmo validarcontraseña
 	definir n,i Como Entero
-	i=1 ; n=0
+	i=1; n=0
 	Escribir "ingrese la contraseña"
 	leer n
 	si n=(123456)
@@ -10,10 +10,14 @@ Algoritmo validarcontraseña
 			escribir "***contrasena incorrecta***"
 			i=i+1
 			Leer n
+			si n=(123456)
+				mostrar "***contraseña correcta***"
+			FinSi
+			
 		Hasta Que i=3 o n=(123456)
-		Escribir " *****contraseña incorrecta*****" 
-		escribir "***numeros de intentos fallidos***"
-	FinSi
+		
+		
+	FinSi 
 	
 	definir n1 como entero
 	definir n2 como entero

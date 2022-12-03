@@ -10,8 +10,10 @@ Algoritmo validarcontraseña
 			escribir "***contrasena incorrecta***"
 			i=i+1
 			Leer n
+			si n=(123456)
+				mostrar "***contraseña correcta***"
+			FinSi
 		Hasta Que i=3 o n=(123456)
-		Escribir " *****contraseña incorrecta*****" 
-		escribir "***numeros de intentos fallidos***"
+		
 	FinSi
 FinAlgoritmo
