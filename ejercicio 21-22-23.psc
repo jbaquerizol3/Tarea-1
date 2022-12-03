@@ -7,9 +7,10 @@ Algoritmo dobletriple
 	leer nu
 	i=nu
 	mientras i<nu+5 Hacer
+		i=i+1
 		doble=i*i
 		triple=i*i*i
-		i=i+1
+		
 		Mostrar "el numero ",i," al cuadrado es ",doble," el cubo es = ",triple
 	FinMientras
 	
@@ -27,7 +28,7 @@ Algoritmo dobletriple
 	a=0
 	q=0
 	Escribir "///numeros 1 al 12 Con lazo mientras:///";
-	Mientras l<=12 Hacer
+	Mientras l<12 Hacer
 		l=l+1;
 		Mostrar l;
 	FinMientras
