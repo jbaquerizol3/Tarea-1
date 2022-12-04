@@ -7,9 +7,10 @@ Algoritmo dobletriple
 	leer nu
 	i=nu
 	mientras i<nu+5 Hacer
+		i=i+1
 		doble=i*i
 		triple=i*i*i
-		i=i+1
+		
 		Mostrar "el numero ",i," al cuadrado es ",doble," el cubo es = ",triple
 	FinMientras
 	
